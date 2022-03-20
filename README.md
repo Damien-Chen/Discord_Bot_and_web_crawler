@@ -1,2 +1,2 @@
 # Test_bot
-The Firest Discord Test bot
+The First Discord Test bot
