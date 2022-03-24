@@ -2,7 +2,7 @@ from http import client
 import discord
 import Network_Spider
 from discord.ext import commands
-Token = "OTUzOTI5MDk0MDI0ODIyNzk0.YjLtsw.3Sm0XISbSXCQuih3yguxww8YU48"
+Token = Your bot token
 client = discord.Client()
 
 @client.event
