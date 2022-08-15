@@ -21,7 +21,7 @@ async def on_message(message):
             #data = Network_Spider.PData(message.content)
             #await message.channel.send(data)
             embedVar = discord.Embed(title=Global.list[Global.i], color=0x00ff00)
-            link_value = 'ptt.cc',Global.link[Global.i]
+            link_value ="https://www.ptt.cc"+Global.link[Global.i]
             link_value = str(link_value)
             link_value = re.sub("',()", "",link_value)
             embedVar.add_field(name="網址", value=link_value, inline=False)
